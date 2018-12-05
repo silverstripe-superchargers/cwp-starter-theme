@@ -8,7 +8,7 @@
         <% end_if %>
 
         <header>
-            <h2 class="h3"><a title="$Title" href="$Link">$Title</a></h2>
+            <h1 class="h4 listing__title"><a title="$Title" href="$Link">$Title</a></h1>
         </header>
 
         <% if $Up.ControllerName == 'CWP\\CWP\\PageTypes\\EventHolder' %>
